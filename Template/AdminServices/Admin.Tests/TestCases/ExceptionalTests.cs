@@ -48,7 +48,7 @@ namespace Admin.Tests.TestCases
         }
 
         [Fact]
-        public async Task<bool> Testfor_UserNotFound()
+        public async Task<bool> Testfor_Admin_UserNotFound()
         {
             //Arrange
             var res = false;

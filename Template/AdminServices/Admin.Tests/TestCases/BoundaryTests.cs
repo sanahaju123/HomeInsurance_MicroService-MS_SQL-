@@ -48,7 +48,7 @@ namespace Admin.Tests.TestCases
         }
 
         [Fact]
-        public async Task<bool> Testfor_ValidContactNumber()
+        public async Task<bool> Testfor_Admin_ValidContactNumber()
         {
             //Arrange
             var res = false;
@@ -87,7 +87,7 @@ namespace Admin.Tests.TestCases
         }
 
         [Fact]
-        public async Task<bool> Testfor_ValidSSN_Number()
+        public async Task<bool> Testfor_Admin_ValidSSN_Number()
         {
             //Arrange
             var res = false;
@@ -126,7 +126,7 @@ namespace Admin.Tests.TestCases
         }
 
         [Fact]
-        public async Task<bool> Testfor_Valid_UserNameLength()
+        public async Task<bool> Testfor_Admin_Valid_UserNameLength()
         {
             //Arrange
             var res = false;
