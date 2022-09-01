@@ -68,7 +68,7 @@ namespace Admin.Tests.TestCases
         }
 
         [Fact]
-        public async Task<bool> Testfor_SignUp()
+        public async Task<bool> Testfor_Admin_SignUp()
         {
             //Arrange
             var res = false;
@@ -107,7 +107,7 @@ namespace Admin.Tests.TestCases
         }
 
         [Fact]
-        public async Task<bool> Testfor_Valid_ViewPolicy()
+        public async Task<bool> Testfor_Admin_Valid_ViewPolicy()
         {
             //Arrange
             var res = false;
@@ -151,7 +151,7 @@ namespace Admin.Tests.TestCases
         }
 
         [Fact]
-        public async Task<bool> Testfor_RetrieveQuote()
+        public async Task<bool> Testfor_Admin_RetrieveQuote()
         {
             //Arrange
             var res = false;
@@ -190,7 +190,7 @@ namespace Admin.Tests.TestCases
         }
 
         [Fact]
-        public async Task<bool> Testfor_SearchUser()
+        public async Task<bool> Testfor_Admin_SearchUser()
         {
             //Arrange
             var res = false;
@@ -229,7 +229,7 @@ namespace Admin.Tests.TestCases
         }
 
         [Fact]
-        public async Task<bool> Testfor_RenewPolicy()
+        public async Task<bool> Testfor_Admin_RenewPolicy()
         {
             //Arrange
             var res = false;
@@ -273,7 +273,7 @@ namespace Admin.Tests.TestCases
         }
 
         [Fact]
-        public async Task<bool> Testfor_CancelPolicy()
+        public async Task<bool> Testfor_Admin_CancelPolicy()
         {
             //Arrange
             var res = false;
